@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+container.fluid {}
+
+.eslogan {
+    font-size: 180%;
+    text-align: center;
+    text-shadow: 0px 8px 6px #4A4946;
+
+
+}
+
+#cortazzo::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(img/bg-color/bg-1.jpg) center center;
+    opacity: .3;
+    height: 8%;
+}
+
+
+.navbar-nav {
+    font-size: 120%;
+    padding-top: 7.1%;
+    border-bottom: ridge 1px #4A4946;
+
+}
+
+.carousel-item {
+    padding-top: 4rem;
+}
+
+body {
+    font-family: Geometria light;
+}
+
+.nombre {
+    background-color: whitesmoke;
+    border: solid 2px #4A4946;
+    box-shadow: 0px 12px 3px #C7C4BB;
+
+    color: #4A4946;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0.5em 1.2em;
+    border: 2px solid black;
+    transition: all 0.5s ease;
+    position: relative;
+
+}
+
+.nombre:hover {
+    background-color: #4A4946;
+    color: #fff !important;
+    text-shadow: 0px 6px 3px #222222;
+}
+
+footer {
+    color: aliceblue;
+    margin-top: 2em;
+
+}
